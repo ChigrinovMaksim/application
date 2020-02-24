@@ -1,0 +1,73 @@
+body {
+    background: url("../images/images2.jpg") no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    background: #C76502;
+    color: #ffe;
+}
+
+ul {
+    padding: 0;
+    margin-left: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+.application {
+    border-bottom: 2px solid red;
+}
+
+.position_front {
+    border-bottom: 2px solid red;
+}
+
+.education_block {
+    border-bottom: 2px solid red;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.person {
+    margin-bottom: 5px;
+}
+
+.skills_block {
+    width: max-content;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+}
+
+.english_courses {
+    width: max-content;
+    margin: 0 auto 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+
+.experience_block {
+    width: max-content;
+    margin: 20px auto;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
